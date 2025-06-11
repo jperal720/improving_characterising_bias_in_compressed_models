@@ -5,6 +5,8 @@ meant to both general inference and Compression Identified Exemplars (CIE) perfo
 
 The ResNet18 + ViT Encoder architecture reported an increase of 10% on recall and 5% on f1-score on the evaluations. Effectively improving on the original results of the paper.
 
+### Setup:
+
 Please first create & activate a python3 virtual environment in this HW2 directory:
 
 For reference: Python 3.13.2 is the version used to build these experiments
