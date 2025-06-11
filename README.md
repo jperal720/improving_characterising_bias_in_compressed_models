@@ -1,6 +1,10 @@
 This subdirectory holds all work related to the replication of the CHARACTERISING BIAS IN COMPRESSED MODELS paper, and a series of experiments
 meant to both general inference and Compression Identified Exemplars (CIE) performance for our base model - ResNet18.
 
+### Results:
+
+The ResNet18 + ViT Encoder architecture reported an increase of 10% on recall and 5% on f1-score on the evaluations. Effectively improving on the original results of the paper.
+
 Please first create & activate a python3 virtual environment in this HW2 directory:
 
 For reference: Python 3.13.2 is the version used to build these experiments
@@ -33,6 +37,7 @@ on the CelebA so as to acquire similar results to the paper's.
 
 Additionally, we're going to perform a series of experiments in which we will make modifications to the base model's architecture (and possibly to our data processing as well) and compare the results to our base results. The following is our Experiment List:
 
+- ResNet18 + ViT Encoder hybrid architecture
 - Multi-head Latent Attention layer for Parameter-Efficient Fine-Tuning (PEFT)
 - Data Augmentation (if time permits)
 
